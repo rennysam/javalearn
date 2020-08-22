@@ -6,8 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String[] firstName={"Renny","Params","Govind"};
-        String[] lastName={"sam","byju","mahesh"};
+        String[] firstName={"sample3","sample","sample2"};
+        String[] lastName={"1","2","3"};
 
         List<User> users = new ArrayList<User>();
 
