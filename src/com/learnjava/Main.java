@@ -1,6 +1,5 @@
 package com.learnjava;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
@@ -22,5 +21,12 @@ public class Main {
         for(User u:users){
             System.out.println(u.getFullName());
         }
+        Main m = new Main();
+        m.printUser(users.get(0));
+    }
+
+    public  void printUser(User u){
+
+        System.out.println(u.getFullName());
     }
 }
