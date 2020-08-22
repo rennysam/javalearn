@@ -5,11 +5,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        User user = new User;
-        user.setFirstName("Renny");
-        user.setLastName("Sam");
+        User person1 = new User;
+        person1.setFirstName("Renny");
+        person1.setLastName("Sam");
 
         List<User> users = new Arraylist<User>();
-        users.add(user);
+        users.add(person1);
     }
 }
