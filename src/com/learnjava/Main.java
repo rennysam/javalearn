@@ -1,15 +1,26 @@
 package com.learnjava;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        User person1 = new User;
-        person1.setFirstName("Renny");
-        person1.setLastName("Sam");
+        String[] firstName={"Renny","Params","Govind"};
+        String[] lastName={"sam","byju","mahesh"};
 
-        List<User> users = new Arraylist<User>();
-        users.add(person1);
+        List<User> users = new ArrayList<User>();
+
+        for(int i=0; i< firstName.length; i++){
+           User u = new User();
+           u.setFirstName(firstName[i]);
+           u.setLastName(lastName[i]);
+           users.add(u);
+        }
+
+        for(User u:users){
+            System.out.println(u.getFullName());
+        }
     }
 }

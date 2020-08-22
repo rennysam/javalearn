@@ -11,4 +11,8 @@ public class User {
         lastName = b;
     }
 
+    public String getFullName(){
+        return firstName+lastName;
+    }
+
 }
